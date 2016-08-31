@@ -45,4 +45,7 @@ body,
 .main {
   flex: 1;
 }
+.align-center {
+  align-items: center;
+}
 </style>

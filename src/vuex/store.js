@@ -30,7 +30,6 @@ const mutations = {
     state.showFilter = false
   },
   SET_USER_LIST (state, val) {
-    console.log(val)
     state.userList.count = val.total_count
     state.userList.users = val.items
   }
